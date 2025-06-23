@@ -24,7 +24,8 @@ This project forecasts the average retail price of a dozen eggs in the US for **
 │   └── Data_Processing.ipynb         # Data loading and cleaning
 ├── python_model_work/
 │   ├── regression_model.ipynb        # OLS Regression with features
-│   └── VECM_model.ipynb              # Vector Error Correction Model
+│   ├── VECM_model_full_output.ipynb  # Vector Error Correction Model, full version with stationarity plots
+│   └── VECM_model_clean.ipynb        # VECM, lightweight notebook (GitHub-viewable)
 ├── python_sentiments_work/
 │   ├── llm_sentiment_analysis/
 │   │   └── llm_sentiment.py          # LLM (LLaMA3 via Groq) sentiment labeling
@@ -37,7 +38,7 @@ This project forecasts the average retail price of a dozen eggs in the US for **
 │   │   ├── config.ini                # Auth info for X API scraping
 │   │   └── extraction_main.py        # X tweet extractor with relevant queries
 │   └── read_write_tweets_in_files.py # I/O utils for tweets
-
+```
 ---
 
 ## 🧠 Methodology
